@@ -1,9 +1,9 @@
-import { Button } from "../../components/ui/button";
+import { Button } from "../ui/button";
 
 const ButtonAction = ({ children }: any) => {
   return (
     <div className="test">
-      <Button className="bg-red-500 text-white">{children}</Button>;
+      <Button className="">{children}</Button>;
     </div>
   );
 };
