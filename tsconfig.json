@@ -16,5 +16,5 @@
     "emitDeclarationOnly": true,
     "jsx": "react-jsx"
   },
-  "include": ["./lib", "./components", "./utils"]
+  "include": ["./lib"]
 }

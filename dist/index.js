@@ -12,11 +12,10 @@ Object.defineProperty(exports, "ButtonAction", {
 Object.defineProperty(exports, "Input", {
   enumerable: true,
   get: function get() {
-    return _input2["default"];
+    return _input["default"];
   }
 });
-require("./components/input.css");
 require("./global.css");
-var _input2 = _interopRequireDefault(require("./components/input"));
+var _input = _interopRequireDefault(require("./components/input"));
 var _ButtonAction = _interopRequireDefault(require("./components/ButtonAction"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
