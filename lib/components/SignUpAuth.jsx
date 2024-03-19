@@ -13,10 +13,10 @@ import { toast } from "sonner";
 import { Loader2, LogIn, VerifiedIcon } from "lucide-react";
 
 import { useState } from "react";
-import { useSignUp } from "clerk/clerk-react";
+import { useSignUp } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 
-const SignUp = () => {
+const SignUpAuth = () => {
   const { isLoaded, signUp, setActive } = useSignUp();
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
@@ -213,4 +213,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUpAuth;

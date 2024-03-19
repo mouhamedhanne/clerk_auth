@@ -21,15 +21,15 @@ Object.defineProperty(exports, "Input", {
     return _input["default"];
   }
 });
-Object.defineProperty(exports, "SignUp", {
+Object.defineProperty(exports, "SignUpAuth", {
   enumerable: true,
   get: function get() {
-    return _SignUp["default"];
+    return _SignUpAuth["default"];
   }
 });
 require("./global.css");
 var _input = _interopRequireDefault(require("./components/input"));
 var _ButtonAction = _interopRequireDefault(require("./components/ButtonAction"));
-var _SignUp = _interopRequireDefault(require("./components/SignUp"));
 var _Demo = _interopRequireDefault(require("./components/Demo"));
+var _SignUpAuth = _interopRequireDefault(require("./components/SignUpAuth"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
