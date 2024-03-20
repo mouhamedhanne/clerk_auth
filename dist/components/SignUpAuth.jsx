@@ -28,8 +28,8 @@ const SignUpAuth = () => {
   const router = useRouter();
 
   const validationPassword = () => {
-    if (password.length < 8) {
-      toast.error("Le mot de passe doit continir 8 caractères");
+    if (password.length > 12) {
+      toast.error("Le mot de passe doit contenir 12 caractères");
     }
   };
 
