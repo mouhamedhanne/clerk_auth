@@ -9,6 +9,12 @@ Object.defineProperty(exports, "ButtonAction", {
     return _ButtonAction["default"];
   }
 });
+Object.defineProperty(exports, "ClerkProvider", {
+  enumerable: true,
+  get: function get() {
+    return _nextjs.ClerkProvider;
+  }
+});
 Object.defineProperty(exports, "Demo", {
   enumerable: true,
   get: function get() {
@@ -32,4 +38,5 @@ var _input = _interopRequireDefault(require("./components/input"));
 var _ButtonAction = _interopRequireDefault(require("./components/ButtonAction"));
 var _Demo = _interopRequireDefault(require("./components/Demo"));
 var _SignUpAuth = _interopRequireDefault(require("./components/SignUpAuth"));
+var _nextjs = require("@clerk/nextjs");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
